@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="false">
+    <test name="All Tests">
+        <classes>
+            <class name="tests.testCases.InvalidEmailLogin"/>
+            <class name="tests.testCases.InvalidPasswordLogin"/>
+            <class name="tests.testCases.LoginPageTest"/>
+            <class name="tests.testCases.ScrollTest"/>
+            <class name="tests.testCases.ProductSearchTest"/>
+            <class name="tests.testCases.AddToCartTest"/>
+            <class name="tests.testCases.SearchInvalidItemTest"/>
+            <class name="tests.testCases.MiniTvTest"/>
+            <class name="tests.testCases.PaymentGatewayTest"/>
+        </classes>
+    </test>
+</suite>
